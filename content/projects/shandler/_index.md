@@ -1,6 +1,6 @@
 ---
 name: "shandler"
 description: "SLOG Handler with more knobs"
-repo: "https://disorder.dev/shandler"
+repo: "https://github.com/jordan-rash/slog-handler"
 packages: ["disorder.dev/shandler"]
 ---
