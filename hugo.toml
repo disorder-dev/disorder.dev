@@ -1,0 +1,52 @@
+baseurl = "https://disorder.dev"
+title = "Disorder Development"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Disorder"
+  info = "Chaos in the code"
+  description = "👀"
+  keywords = ""
+  avatarurl = "/images/logo.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2017
+
+  enableTwemoji = false
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/disorder-dev/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/jordan-rash/"
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url = "projects/"
