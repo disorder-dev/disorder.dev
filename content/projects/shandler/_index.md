@@ -3,6 +3,7 @@ name: "shandler"
 description: "SLOG Handler with more knobs"
 repo: "https://github.com/jordan-rash/slog-handler"
 packages: ["disorder.dev/shandler"]
+draft: false
 ---
 
 # sHandler - SLOG Handler with more knobs
@@ -65,5 +66,5 @@ logger = slog.New(shandler.NewHandler(
 	shandler.WithLogLevel(shandler.LevelTrace),
 ))
 logger.Log(ctx, shandler.LevelTrace, "trace test")
-logger.Log(ctx, shandler.FatalTrace, "fatal test") // this would appear in StdErr
+logger.Log(ctx, shandler.LevelFatal, "fatal test") // this would appear in StdErr
 ```
